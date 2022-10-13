@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Barra de Navegación</title>
+    <style>
+      body{background-color: #dfdfdf ;
+      font-family: Arial, Helvetica, sans-serif;
+      }
+      ul{
+        border: 1px solid black;
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+        width: 1000px;
+        max-width: 90%;
+        background-color: rgb(255, 71, 71);
+        overflow: auto;
+      }
+      
+      li a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding:20px;
+      }
+      
+      li{
+        text-align: center;
+        display: inline;
+        float: left;
+        border-right: 1px solid black;
+      }
+      
+      .inicio {
+        background-color: rgb(0, 0, 0);
+        color:rgb(255, 0, 0);
+      }
+      li a:hover:not(.inicio){
+        background-color: rgb(0, 0, 0);
+        color: rgb(253, 67, 67);
+      }
+      
+    </style>
+
+  </head>
+  <body>
+      <ul>
+        <li><a class="inicio" href=>Inicio</a></li>
+        <li><a href="productos">Productos</a></li>
+        <li><a href="Servicios">Servicios</a></li>
+        <li><a href="acerca de">Acerca De</a></li>
+        <li><a href="nosotros">Nosotros</a></li>
+      </ul>
+  </body>
+</html>
